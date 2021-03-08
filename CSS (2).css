@@ -1,0 +1,267 @@
+/* universal selector */
+*{
+    font-family: Verdana, Tahoma, sans-serif ;
+    color: black;
+    text-decoration: none;
+}
+
+
+.disclaimer {
+    text-align: center;
+    color: red;
+    background-color: yellow;
+    font-size: 14px;
+    box-sizing: content-box;
+    width: 100%;
+}
+
+/* Back to the top button*/
+#myBtn {
+    position: fixed;
+    bottom: 10px;
+    float: right;
+    right: 50.5%;
+    left: 90.25%;
+    max-width: 100px;
+    width: 100%;
+    font-size: 20px;
+    border-color: rgba(85, 85, 85, 0.2);
+    background-color: #ffff;
+    padding: .5px;
+    border-radius: 4px;
+    opacity: 0.9;
+
+}
+/*On Hover Color Change*/
+#myBtn:hover {
+    background-color: #c0c0c0;
+}
+
+.arrow img {
+    width: 15px;
+    height: 20px;
+}
+
+
+/* styling for the background*/
+body {
+background-image: url(Images/bg2.png); 
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+/*home page parallax*/
+.parallax{
+    background-image: url(images/parallax3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-attachment: fixed ;
+    height: 500px;
+}
+
+/* import media rule */
+@media (max-width:1050px) {
+    .parallax{
+        background-attachment: scroll;
+        background-image: url(Images/parallax-small.jpg)
+    }
+}
+ 
+/* navigation bar*/
+.nav {
+    color: rgb(0, 0, 0);
+    list-style: none;
+    text-align: left;
+    padding: 20px 0 20px 0;
+    overflow: hidden;
+    padding-left: 20px;
+}
+
+       
+
+.nav > li {
+    display: inline-block;
+    padding-right: 20px;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.nav > li > a {
+    text-decoration: none;
+    display: block;
+    padding: 2px 2px;
+}
+
+ li > a:hover {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    float: right;
+}
+
+
+.home , section {
+    float: center;
+    width: 80%;
+    text-align: center;
+    margin: 20px auto;
+    margin-bottom: 20px;
+    border: 5px solid rgba(0, 0, 0, 0);
+    background-color:transparent
+}
+
+h2 {
+    text-align: center ;
+    font-size: 2em ;
+}
+
+/* ID */
+#logo {
+    width: 75px;
+    height: 75px;
+    float: left;
+    padding-bottom: 5px;
+}
+
+#socialmedia
+{
+    float: right;
+    width: 50px;
+    height: 50px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+/* CSS for shop */
+.container {
+    width: 80%;
+    height: 600px;
+    background-color: transparent;
+    margin: 20px auto;
+    display: flex;
+    border: 5px solid #00000000;
+}
+
+.col {
+    height: 100%;
+    flex: 1;
+    box-sizing: border-box;
+    padding: 1%;
+    transition: 0.6s;
+  
+}
+
+.col:nth-child(1) {
+    background-color: #F08080;
+}
+
+.col:nth-child(2) {
+    background-color: #FFC125;
+}
+
+.col:nth-child(3) {
+    background-color:#87CEFA ;
+}
+
+/*heading*/
+h4 {
+    text-align: center;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.caption {
+    max-width: 230px;
+    font-size: 20px;
+    margin: 28px 0;
+
+}
+
+.caption button , button{
+border: 3px solid rgb(10, 10, 10);
+background: transparent;
+outline: none;
+padding: 8px 18px;
+color: black;
+border-radius: 20px;
+margin-top: 20px;
+cursor: pointer;
+font-size: 20px;
+}
+
+.col img {
+    width: 80%;
+    position: relative;
+    right: 0; bottom: 0;
+}
+
+.col:hover {
+flex-grow: 1.25;
+}
+
+/* CSS for image gallery*/
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row ;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.349);
+    height: 1%;
+    }
+    
+.gallery {
+    padding: 20px 20px 20px;
+    border:3px solid transparent;
+    
+    
+}
+     
+.tape{
+        margin-top: 80px;
+}
+    
+img:hover {
+          opacity: 0.6;
+          transition: 0.9s;
+}
+
+/* CSS for feeback*/
+form { background-color:#ffffffa1;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    padding-left: 40%;
+}
+
+label { float: left;
+     width: 100px; 
+     clear: left;
+     text-align: left; 
+     padding-right: 10px;
+     margin-top: 10px; 
+}
+
+input, textarea { margin-top: 20px; 
+                 display: block;
+} 
+
+#mySubmit { margin-left: 110px; 
+    cursor: pointer;
+}
+
+/*footer*/
+.footer > a {
+    text-align: left;
+    padding: 0.3% 0.3%;
+}
+
+.mainfooter {
+    margin-left: 3%;
+    text-align: left;
+}

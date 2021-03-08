@@ -1,0 +1,153 @@
+<!-- this is assignment 2 --> 
+<!DOCTYPE html>
+<html lang="en">
+<!-- This program displays a webpage  -->
+<head>
+<title>ZINA | A clothing retail store</title>
+<link  rel="stylesheet" type="text/css" href="CSS.css">
+<link rel="icon" href="Images/logo.png" type="image/x-icon">
+<!-- meta tags are here --> 
+
+<meta charset="utf-8">
+<meta name="description" content="Clothing retail store">
+<meta name="keywords" content="CIS 145,Web Engineering,UFV,Web development,Clothing,retail,store">
+<meta name="author" content="Sarthak Batra, Radhika Aggi, Harashdeep Singh Chahal, Sanil Paul"> 
+<meta name="robots" content="noindex"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+</head>
+
+<!-- The body of web page starts --> 
+<body>
+    <header> 
+<nav>
+    <div>
+    <a href="HTML.html"><img src="Images/logo.png" id="logo"  alt="Zina Logo"> </a>
+    <a href="https://www.facebook.com/" target="_blank"><img src="Images/facebook.png" id="socialmedia" alt="Facebook Logo" > </a>
+    <a href="https://www.instagram.com/" target="_blank"><img src="Images/instagram-logo.png" id="socialmedia" alt="Instagram-logo"></a>
+    <a href="https://twitter.com/" target="_blank"><img src="Images/twitter.png" id="socialmedia" alt="Twitter"></a>
+</div>
+    <ul class="nav">
+<li><a href="#home1"> HOME </a></li>  
+<li><a href= "#shop"> SHOP</a></li>
+<li><a href= "#imagegallery"> IMAGE GALLERY</a></li>
+<li><a href= "#about" > ABOUT </a></li> 
+<li> <a href="#feedback"> FEEDBACK</a></li>
+ <li><a href="#contact"> CONTACT</a></li> 
+  </ul>
+</nav>
+</header>
+
+<!-- Home section-->
+<h2> <a href id="home1"> HOME </a> </h2>
+<div class="home">
+    <div class="parallax"> </div>
+<br>
+        <h2> <a href id="shop"> SHOP </a> </h2>
+
+<!--Shop -->
+<div class="container">
+    <div class="col">
+        <h4> MEN</h4>
+        <div class="caption">
+            <p> New Arrivals</p>
+            <button type="button">  Shop Men </button>
+        </div>
+        <img src="Images/mens.jpg" alt ="menswear">
+    </div>
+    <div class="col">
+        <h4> WOMEN</h4>
+        <div class="caption">
+            <p> New Arrivals</p>
+            <button type="button">  Shop Women </button>
+        </div>
+        <img src="Images/women.jpg" alt ="womenwear">
+    </div>
+    <div class="col">
+        <H4> KIDS</H4>
+        <div class="caption">
+            <p> New Arrivals</p>
+            <button type="button">  Shop Kids </button>
+        </div>
+        <img src="Images/kidswear.jpg" alt ="kidswear">
+    </div>
+</div>
+<br>
+<!--Back to the top button-->
+<div class="arrow"> 
+<button id="myBtn"> <a href="#top" style="color: white"> <img src="images/arrow-up.png"> </a></button>
+</div>
+
+<!--Image Gallery-->
+<h2> <a href id="imagegallery"> IMAGE GALLERY </a></h2>
+<div class="row">
+<div class="container1">
+    <div class="gallery"> <img src="images/image1.jpg" alt="clothing"> </div>
+    <div class="gallery"> <img src="images/image2.jpg" alt="clothing"> </div>
+    <div class="gallery"> <img src="images/image3.jpg" alt="clothing"> </div>
+    <div class="gallery"> <img src="images/image4.jpg" alt="clothing"> </div>
+    <div class="gallery"> <img src="images/image5.jpg" alt="clothing"> </div>
+    <div class="gallery"> <img src="images/image6.jpg" alt="clothing"> </div>
+    <div class="gallery"> <img src="images/image7.jpg" alt="clothing"> </div>
+    <div class="gallery"> <img src="images/image8.jpg" alt="clothing"> </div>
+</div>
+</div>
+
+    <div class="tape">
+
+<!-- About Us-->
+<h2> <a href id="about">ABOUT ZINA </a> </h2> </div>
+<section>
+    <p><strong> <q>ZINA clothing was introduced in 1998 to represents the hardwork of millions with assured quality and inspiring affordable products. 
+       With an experience of more than 20 years in the market, We have continously worked on getting the best for our customers and as well 
+       respecting our workers. We believe in 'vocal for local' and continue to support small businesses.</q></strong> 
+    </p>
+    <button> Know More </button>
+</section>
+
+
+
+<!-- For customer Feedback -->
+<div id="form">
+    <div class="tape">
+    <h2>  <a href id="feedback">FEEDBACK </a> </h2>
+<form method="post">
+  <label for="myName">Name:</label>
+  <input type="text" name="myName" id="myName">
+  <label for="myEmail">E-mail:</label>
+  <input type="text" name="myEmail" id="myEmail">
+  <label for="myComments">Comments:</label>
+  <textarea name="myComments" id="myComments" rows="2" cols="20"></textarea>
+  <input id="mySubmit" type="submit" value="Submit">
+</form>
+</div>
+</div>
+
+<!-- footer of our page-->
+<footer class="mainfooter">
+    <div class="tape">
+    <h3> <a href id="contact"> CONTACT US</a> </h3>
+    <p> Zina <br> <address>New Delhi, India </address>  </p>
+    <a href="mailto:Example@gmail.com"> Email us : Zinaclothings@gmail.com </a>
+    <p> Phone: +91 1234 56780</p>
+    <br>
+    <div class="footer">
+        <a href="#termsofuse">Terms of Use</a>
+        &nbsp;
+        <a href="#webaccessiblity">Web Accessibility </a>
+        &nbsp;
+        &nbsp;
+        <a href="#privacystatement">Privacy Statement </a>
+
+        </div>
+    </div>
+
+    <br>
+
+<!-- disclaimer-->
+<p style="text-align: center;"> &copy;2021 ZINA | A retail clothing store - All Rights Reserved</p>
+</footer>
+<p class="disclaimer"> "This is a project of CIS 145 , Web Publishing Course in UFV, Instructed and requested by Professor Lili Saghafi" </p>
+</body>
+</html>
