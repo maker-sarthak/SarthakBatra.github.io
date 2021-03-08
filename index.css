@@ -53,7 +53,7 @@ background-attachment: fixed;
 
 /*home page parallax*/
 .parallax{
-    background-image: url(images/parallax3.jpg);
+    background-image: url(Images/parallax3.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
