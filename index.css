@@ -1,15 +1,15 @@
 /* universal selector */
 *{
     font-family: Verdana, Tahoma, sans-serif ;
-    color: black;
+    color: #000000;
     text-decoration: none;
 }
 
 
 .disclaimer {
     text-align: center;
-    color: red;
-    background-color: yellow;
+    color: #FF0000;
+    background-color: #FFFF00;
     font-size: 14px;
     box-sizing: content-box;
     width: 100%;
@@ -95,8 +95,8 @@ background-attachment: fixed;
 }
 
  li > a:hover {
-    color: black;
-    background-color: white;
+    color: #000000;
+    background-color:#FFFFFF;
     text-decoration: none;
     display: block;
     overflow: hidden;
@@ -187,7 +187,7 @@ border: 3px solid rgb(10, 10, 10);
 background: transparent;
 outline: none;
 padding: 8px 18px;
-color: black;
+color: #000000;
 border-radius: 20px;
 margin-top: 20px;
 cursor: pointer;
